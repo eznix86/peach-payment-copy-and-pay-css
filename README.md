@@ -78,18 +78,18 @@ h6 {
 /* Custom styles */
 
 :root {
-   --tw-bg-opacity: 1;
-   --tw-ring-offset-width: 0px;
-   --tw-ring-offset-color: #fff;
-   --tw-ring-opacity: 1;
-   --tw-text-opacity: 1;
-   --tw-shadow-color: rgb(0 0 0 / .05);
-   --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-   --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
-   --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
-   --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
-   --tw-ring-inset: inset;
-   --tw-ring-color: rgb(209 213 219 / var(--tw-ring-opacity));
+   --bg-opacity: 1;
+   --ring-offset-width: 0px;
+   --ring-offset-color: #fff;
+   --ring-opacity: 1;
+   --text-opacity: 1;
+   --shadow-color: rgb(0 0 0 / .05);
+   --shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+   --shadow-colored: 0 1px 2px 0 var(--shadow-color);
+   --ring-offset-shadow: var(--ring-inset) 0 0 0 var(--ring-offset-width) var(--ring-offset-color);
+   --ring-shadow: var(--ring-inset) 0 0 0 calc(1px + var(--ring-offset-width)) var(--ring-color);
+   --ring-inset: inset;
+   --ring-color: rgb(209 213 219 / var(--ring-opacity));
 }
 
 .wpwl-label {
@@ -101,7 +101,7 @@ h6 {
     font-size: 0.875rem;
     font-weight: 600;
     line-height: 1.5rem;
-    color: rgb(17 24 39 / var(--tw-text-opacity));
+    color: rgb(17 24 39 / var(--text-opacity));
 }
 
 .wpwl-control {
@@ -124,15 +124,15 @@ h6 {
     padding-right: 0.875rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    color: rgb(17 24 39 / var(--tw-text-opacity));
-    box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+    color: rgb(17 24 39 / var(--text-opacity));
+    box-shadow: var(--ring-offset-shadow), var(--ring-shadow), var(--shadow, 0 0 #0000);
 }
 
 button {
     user-select: none;
     font-size: .8125rem;
     line-height: 1.25rem;
-    color: rgb(15 23 42 / var(--tw-text-opacity));
+    color: rgb(15 23 42 / var(--text-opacity));
     box-sizing: border-box;
     border-width: 0;
     border-style: solid;
@@ -145,7 +145,7 @@ button {
     padding-bottom: .5rem;
     text-align: center;
     font-weight: 500;
-    box-shadow: var(--tw-ring-offset-shadow),var(--tw-ring-shadow),var(--tw-shadow, 0 0 #0000);
+    box-shadow: var(--ring-offset-shadow),var(--ring-shadow),var(--shadow, 0 0 #0000);
 }
 
 .wpwl-control-brand {
